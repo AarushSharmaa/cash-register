@@ -5,49 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css"> <!-- This will connect our index.html page to CSS page -->
+    <title> Cash Register 💰</title>
 </head>
 
 <body>
 
     <div class="container">
-        <h1 class="heading">Cash Register App</h1>
-        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to
+        <h1 class="heading">Cash Register</h1>
+        <p class="description">Enter the Bill Amount and Cash Given by the customer and know minimum number of notes to
             return.</p>
 
         <!--Bill Amount-->
         <label for="bill-amount">Bill Amount: </label>
-        <!--for is connecting the label to the input-->
-        <input id="bill-amount" type="text" >
+        <input id="bill-amount" type="text">
+        <!--This will create an input box for billAmount-->
 
-        
+
         <!--Cash Given-->
-        <label for="cash-given">Cash Given:  </label>
-        <input id="cash-given" type="text" > 
-        
+        <label for="cash-given">Cash Given: </label>
+        <input id="cash-given" type="text">
+        <!--This will create an input box for cashAmount-->
+
         <!--Check Button-->
-        <button id = "check-button">Check</button>
+        <button id="check-button">Check</button>
+        <!--This will create a button that will give the minimum number of notes to return -->
 
-        <p id ="error-message"></p>
+        <p id="error-message"></p>
+        <!--This will hold the error message-->
 
-        <table class = "change-table">
+
+        <!--Below code creates a table which will show the minimum number of notes to return-->
+        <table class="change-table">
             <caption>
-                Return Change
+                Minimum number of notes to return
             </caption>
             <tr>
                 <th> Number of notes </th>
-                <td class = "no-of-notes" ></td>
-                <td class = "no-of-notes"></td>
-                <td class = "no-of-notes"></td>
-                <td class = "no-of-notes"></td>
-                <td class = "no-of-notes"></td>
-                <td class = "no-of-notes"></td>
-                <td class = "no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
 
             </tr>
             <tr>
-                <th>Note</th>
+                <th> Notes available </th>
                 <td>2000</td>
                 <td>500</td>
                 <td>100</td>
@@ -61,6 +66,6 @@
 
 </body>
 
-<script src="app.js"></script>
+<script src="app.js"></script> <!-- This will connect our index.html page to app.js -->
 
 </html>
