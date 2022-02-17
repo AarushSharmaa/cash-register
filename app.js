@@ -44,7 +44,7 @@ function caluclateChange(amountToBeReturned)
         const numberOfNotes = 
         Math.trunc(amountToBeReturned / availableNotes[i]);
 
-        //second, after using that denomination, we need to find the remaining amount and continue the looping journey
+        //second, after using that denomination, we need to find the remaining amount
         amountToBeReturned = amountToBeReturned % availableNotes[i]
 
         //updating the number of notes in the table for the current amount
