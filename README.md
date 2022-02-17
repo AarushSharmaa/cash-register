@@ -1,6 +1,7 @@
 # Cash Register
 - This web app will take a **bill amount(what customer owes)**, **cash amount(what customer paid)**, and will return the minimum number of notes to return to the customer to even the balance.
 - In simple words, you buy groceries worth 100 rs and paid 500 rs, so you will receive 400 rs in return. This web app will tell minimum number of notes to return so that it sums up to 400.
+- Available notes are : 2000, 500, 100, 20, 10, 5, 1
 
 ### Let us understand the core logic we used in our web app 
 
