@@ -56,7 +56,34 @@ body
     font-size: large;
     cursor: pointer;
     border-radius: 0.5rem;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 2rem;
     display: block;
-    
+}
+
+
+#error-message{
+    color: red;
+    font-weight: bold;
+    margin: 2rem auto;
+    display: block;
+    font-size: larger;
+}
+
+
+
+.change-table
+{
+    border-collapse: collapse;
+    width: 50%;
+    text-align:justify;
+    margin: 0rem auto;
+}   
+
+
+th, td
+{
+    border: 2px solid #7c3aed;
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.4rem;
 }

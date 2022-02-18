@@ -26,7 +26,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
 
     if (billAmount.value > 0) {
         hideMessage();
-        if (cashGiven.value >= billAmount.value) {
+        if (Number(cashGiven.value) >= Number(billAmount.value)) {
             //first we need to get the difference
             //based on this difference, we will figure out the number of notes
             const amountToBeReturned = cashGiven.value - billAmount.value;
