@@ -1,8 +1,62 @@
-
-.container 
+body
 {
+    background-color: white;
+    font-style: normal;
+}
+
+
+.container {
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    margin: 2rem auto;
+    width: 100%;
+    max-width: 100%;
+    min-height: 900px;
+    padding: 1rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+
+
+.heading
+{
+    font-style:italic;
+    text-align: center;
+    color: #7c3aed;
+    font-weight: bolder;
+    font-size:45px;
+    
+}
+
+.description
+{
+    font-style:normal;
+    font-weight: lighter;
+}
+
+#bill-amount{
+    border-color: #7c3aed;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+#cash-given{
+    border-color: #7c3aed;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+
+#check-button
+{
+    border: none;
+    margin: 1rem auto;
+    background-color: #7c3aed;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    display: block;
+    
 }
