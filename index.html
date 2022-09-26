@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- This will connect our index.html page to CSS page -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- This will connect our index.html page to CSS page -->
     <title> Cash Register 💰</title>
 </head>
 
@@ -13,18 +14,18 @@
 
     <div class="container">
         <h1 class="heading">Cash Register</h1>
-        <p class="description">Enter the Bill Amount and Cash Given by the customer and know minimum number of notes to
-            return.</p>
+        <p class="description">Enter the Bill Amount and Cash Given by the customer and know minimum number of notes to return.
+        </p>
 
         <!--Bill Amount-->
         <label for="bill-amount"><strong>Bill Amount: </strong> </label>
-        <input id="bill-amount" type="number">
+        <input id="bill-amount" type="number" min="0">
         <!--This will create an input box for billAmount-->
 
 
         <!--Cash Given-->
         <label for="cash-given"><strong>Cash Given: </strong></label>
-        <input id="cash-given" type="number">
+        <input id="cash-given" type="number" min="0">
         <!--This will create an input box for cashAmount-->
 
         <!--Check Button-->
@@ -63,10 +64,29 @@
             </tr>
         </table>
     </div>
-
+    <footer>
+        <ul>
+            <li>
+                <a class="links" href="https://github.com/AarushSharmaa" target="_blank">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://www.linkedin.com/in/aarushsharma11/" target="_blank">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://aarushportfolio.netlify.app/" target="_blank">
+                    Portfolio
+                </a>
+            </li>
+        </ul>
+    </footer>
 
 </body>
 
-<script src="app.js"></script> <!-- This will connect our index.html page to app.js -->
+<script src="app.js"></script>
+<!-- This will connect our index.html page to app.js -->
 
 </html>

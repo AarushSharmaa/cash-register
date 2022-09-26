@@ -3,7 +3,6 @@ body {
     font-style: normal;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
@@ -15,15 +14,12 @@ body {
     text-align: center;
 }
 
-
-
 .heading {
     font-style: italic;
     text-align: center;
     color: #7c3aed;
     font-weight: bolder;
     font-size: 45px;
-
 }
 
 .description {
@@ -43,7 +39,6 @@ body {
     border-radius: 0.5rem;
 }
 
-
 #check-button {
     border: none;
     margin: 1rem auto;
@@ -56,7 +51,6 @@ body {
     display: block;
 }
 
-
 #error-message {
     color: red;
     font-weight: bold;
@@ -65,8 +59,6 @@ body {
     font-size: larger;
 }
 
-
-
 .change-table {
     border-collapse: collapse;
     width: 50%;
@@ -74,11 +66,41 @@ body {
     margin: 0rem auto;
 }
 
-
 th,
 td {
     border: 2px solid #7c3aed;
     width: 0%;
     border-collapse: collapse;
     padding: 0.4rem;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: brown;
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+}
+
+.footer-list {
+    margin: 1rem;
+}
+
+a,
+li {
+    display: inline;
+    font-weight: lighter;
+    padding: 0.5rem;
+    color: #7c3aed;
+    text-decoration: none;
+    font-size: medium;
 }
