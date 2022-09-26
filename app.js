@@ -36,7 +36,7 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
             showMessage("Cash Given is less than the Bill Amount. Do you want to wash plates?");
         }
     } else {
-        showMessage("Ne-21ative Bill Amount. Are you Vijay Mallya?");
+        showMessage("Negative Bill Amount. Are you Vijay Mallya?");
     }
 })
 
