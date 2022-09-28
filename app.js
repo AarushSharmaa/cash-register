@@ -24,7 +24,8 @@ const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 //on getting clicked, we need to check if billAmount >= cashGiven 
 checkButton.addEventListener("click", function validateBillAndCashAmount() {
 
-    if (billAmount.value > 0) {
+
+    if (billAmount.value > 0 && cashGiven.value > 0) {
         hideMessage();
         if (Number(cashGiven.value) >= Number(billAmount.value)) {
             //first we need to get the difference
@@ -33,10 +34,10 @@ checkButton.addEventListener("click", function validateBillAndCashAmount() {
             caluclateChange(amountToBeReturned);
 
         } else {
-            showMessage("Cash Given is less than the Bill Amount. Do you want to wash plates?");
+            showMessage("Enter valid Bill and Cash amount. Note : Cash Given >= Bill Amount ");
         }
     } else {
-        showMessage("Negative Bill Amount. Are you Vijay Mallya?");
+        showMessage("Enter valid Bill and Cash amount. Both must be >= 1");
     }
 })
 
